@@ -4,5 +4,8 @@
 <li>Turkish <span class="lang-desc">(Native)</span></li>
 <li>English <span class="lang-desc">(Professional)</span></li>
 <li>Italian <span class="lang-desc">(Elementary)</span></li>
+{% for lang in site.data.languages %}
+  <li>{{ lang.name }} <span class="lang-desc">({{ lang.level }})</span></li>
+{% endfor %}
 </ul>
 </div><!--//interests-->
