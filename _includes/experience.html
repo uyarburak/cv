@@ -7,7 +7,11 @@
           <h3 class="job-title">{{ experience.job_title }}</h3>
           <div class="time">{{ experience.job_start }} - {{ experience.job_end }}</div>
         </div><!--//upper-row-->
-        <a href="{{ experience.company_link }}" target="_blank"><div class="company">{{ experience.company_name }}, {{ experience.company_location }}</div></a>
+        {% if experience.company_link %}
+          <a href="{{ experience.company_link }}" target="_blank"><div class="company">{{ experience.company_name }}, {{ experience.company_location }}</div></a>
+        {% else %}
+          <div class="company">{{ experience.company_name }}, {{ experience.company_location }}</div>
+        {% endif %}
       </div><!--//meta-->
       <div class="details">
         <p>{{ experience.description }}</p>  
