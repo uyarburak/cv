@@ -1,12 +1,12 @@
-- name: Velocity
-  description: A responsive website template designed to help startups promote, market and sell their products.
-  link: #
-- name: DevStudio
-  description: A responsive website template designed to help startups promote, market and sell their products.
-  link: #
-- name: Tempo
-  description: A responsive website template designed to help startups promote, market and sell their products.
-  link: #
-- name: Atom
-  description: A responsive website template designed to help startups promote, market and sell their products.
-  link: #
+- name: ETU Stalker
+  link: "https://github.com/uyarburak/etustalker"
+  description: "This android application allows students to follow their lessons and any school related stuff. Also stalk each other :D"
+  technologies: "Android, PHP, SQLite"
+- name: ETU Stalker Server
+  link: "https://github.com/uyarburak/etustalkerserver"
+  description: "This application serves to etustalker project by collecting the data from etu.edu.tr and populates the database"
+  technologies: "Java, Hibernate, XML, MySQL"
+- name: Etuophia
+  link: "https://github.com/uyarburak/etuophia"
+  description: "It can be considered as a clone for Piazza"
+  technologies: "PHP, MySQL, HTML, JS, CSS"
