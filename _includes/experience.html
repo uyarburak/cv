@@ -1,31 +1,17 @@
 <section class="section experiences-section">
-                <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Software Development Intern</h3>
-                            <div class="time">2017 Jan - 2017 Apr</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Havelsan, Ankara</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>  
-                        
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Software Development Intern</h3>
-                            <div class="time">2016 May - 2016 Aug</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Innova Bilisim, Ankara</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>  
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-            </section><!--//section-->
+  <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+  {% for experience in site.data.experiences %}
+    <div class="item">
+      <div class="meta">
+        <div class="upper-row">
+          <h3 class="job-title">{{ experience.job_title }}</h3>
+          <div class="time">{{ experience.job_start }} - {{ experience.job_end }}</div>
+        </div><!--//upper-row-->
+        <a href="{{ experience.company_link }}" target="_blank"><div class="company">{{ experience.company_name }}, {{ experience.company_location }}</div></a>
+      </div><!--//meta-->
+      <div class="details">
+        <p>{{ experience.description }}</p>  
+      </div><!--//details-->
+    </div><!--//item-->
+  {% endfor %}
+</section><!--//section-->
