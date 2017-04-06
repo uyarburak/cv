@@ -14,7 +14,15 @@
         {% endif %}
       </div><!--//meta-->
       <div class="details">
-        <p>{{ experience.description }}</p>  
+        <p>{{ experience.description }}
+          {% if experience.works %}
+            <ul>
+              {% for work in experience.works %}
+                <li>{{ work }}</li>
+              {% endfor %}
+            <ul>
+          {% endif %}
+        </p>  
       </div><!--//details-->
     </div><!--//item-->
   {% endfor %}
