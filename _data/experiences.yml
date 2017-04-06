@@ -2,7 +2,8 @@
   job_start: 2017 Jan
   job_end: 2017 Apr
   description: Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-  works: array('PHP', 'Perl', 'Python');
+  works: 
+  - test
   company_name: Havelsan
   company_location: Ankara
   company_link: http://www.havelsan.com.tr
@@ -10,7 +11,10 @@
   job_start: 2016 May
   job_end: 2016 Aug
   description: During my internship I have been involved in a large project that uses Java, Hibernate (Oracle DB), Spring, Activiti, Vaadin, SOAP and many other technologies.
-  works: array('I have designed queries and Activiti processes to detect anomalies in the system and notifies it', 'Designed a user page in Vaadin', 'Did some changes in SOAP services of the project');
+  works:
+    - I have designed queries and Activiti processes to detect anomalies in the system and notifies it
+    - Designed a user page in Vaadin
+    - Did some changes in SOAP services of the project
   company_name: Innova Bilisim
   company_location: Ankara
   company_link: http://www.innova.com.tr
