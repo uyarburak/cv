@@ -1,7 +1,11 @@
 - name: Java & Android
   level: 95
+- name: SQL
+  level: 93
 - name: Javascript & jQuery
-  level: 75
+  level: 83
+- name: Php
+  level: 80
 - name: C
   level: 65
 - name: HTML & CSS
