@@ -14,13 +14,12 @@
   job_end: 2016 Aug
   description: During my internship I have been involved in a large project that uses Java, Hibernate (Oracle DB), Maven, Spring, Activiti, Vaadin, SOAP and many other technologies.
   works:
-    - Analyzed the service logs and tried to find the right threshold value for each services and exceptions.
-    - Designed and developed queries and business processes to detect anomalies in the system and notify it.
+    - Analyzed the service logs and decide the right threshold value for each services and exceptions.
+    - Developed a system to detect production anomalies and alert responsibles.
     - An interface was developed to automatically create business process from an excel sheet.
     - Developed an administration panel in Vaadin which can interfere with critical processes.
     - Changes made to some SOAP services and refactored some main Activiti processes and test it.
     - Analyzed project dependencies and write a report about outdated libraries.
-    - Did research about migrating to Vaadin 7
   company_name: Innova Bilisim
   company_location: Ankara
   company_link: http://www.innova.com.tr
