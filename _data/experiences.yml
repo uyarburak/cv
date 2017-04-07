@@ -16,7 +16,7 @@
   works:
     - Analyzed the service logs and decide the right threshold value for each services and exceptions.
     - Developed a system to detect production anomalies and alert responsibles.
-    - An interface was developed to automatically create business process from an excel sheet.
+    - Developed an interface to automatically create business process from an excel sheet.
     - Developed an administration panel in Vaadin which can interfere with critical processes.
     - Changes made to some SOAP services and refactored some main Activiti processes and test it.
     - Analyzed project dependencies and write a report about outdated libraries.
