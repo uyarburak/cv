@@ -9,8 +9,12 @@
 - name: Etuophia
   link: "https://github.com/uyarburak/etuophia"
   description: "It can be considered as a clone for Piazza"
-  technologies: "PHP, MySQL, HTML, JS, CSS"
+  technologies: "Python, SQLite3, HTML, JS, CSS"
 - name: Thief Alarm
   link: "/cv/#"
   description: "Class project for Digital Image Processing course. It tracks 2D table and reports stolen or added items. No built-in Matlab functions were used in due to respect to course."
   technologies: "Matlab"
+- name: ETU Appointment
+  link: "/cv/#"
+  description: "Class project for Production and Operations Management course."
+  technologies: "Python, SQLite3, HTML, JS, CSS"
