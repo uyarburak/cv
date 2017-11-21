@@ -18,3 +18,7 @@
   link: "/cv/#"
   description: "Class project for Production and Operations Management course."
   technologies: "Python, SQLite3, HTML, JS, CSS"
+- name: Sweet Home
+  link: "https://github.com/uyarburak/housenotifier_server"
+  description: "Homemade arduino/android/server project to notify me and my housemate if ring bells or door opened. It checks if one of our phone is connected to house wifi, then ignores."
+  technologies: "Arduino, SQLite3, Python, Android"
